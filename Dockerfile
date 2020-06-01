@@ -10,6 +10,6 @@ COPY . .
 
 ENTRYPOINT FLASK_APP=app.py flask run
 
-#docker build Dockerfile -t lstas180877/my-custom-app
+#docker build -t lstas180877/my-custom-app .
 #docker push lstas180877/my-custom-app
 
